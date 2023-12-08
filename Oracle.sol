@@ -333,7 +333,7 @@ contract Oracle {
     }
 
     address public immutable factory;
-    uint256 public constant CYCLE = 30 minutes;
+    uint256 public constant CYCLE = 10 minutes;
 
     // mapping from pair address to a list of price observations of that pair
     mapping(address => Observation) public pairObservations;
